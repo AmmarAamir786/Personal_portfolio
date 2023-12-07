@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+
+ 
+
+
+@layer base {
+  html {
+    font-family: 'Nunito Sans', sans-serif;
+  }
+}
+
+.gradient_main {
+  @apply bg-gradient-to-r from-red-400 to-blue-500
+ }
+
+ .margin {
+  @apply mx-5 lg:mx-16
+ }
+
+ .mygoldtext {
+  @apply text-amber-400
+ }
+
+ .mygoldbg {
+  @apply bg-amber-400
+ }
+
+
+

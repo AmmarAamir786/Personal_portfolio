@@ -1,9 +1,5 @@
 import React from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
-import Mybutton from '../../components/Mybutton'
 import Myfooter from '../../components/Myfooter'
-import Mylogo from '../../components/Mylogo'
 import Mynavbar from '@/components/Mynavbar'
 import Mycard from '@/components/Mycard'
 import homelander from "@/assets/illustrations/Homelander.png"
@@ -36,27 +32,27 @@ const illustrations = () => {
         <section>
 
             <div className="flex margin gap-10 mt-10 justify-center items-center lg:flex-row flex-col">
-                <Mycard title='Homelander' width={710} pic={homelander}></Mycard>
+                <Mycard title='Homelander' width={600} pic={homelander}></Mycard>
 
                 <Mycard title='Madara' width={400} pic={madara}></Mycard>
             </div>
 
-            <div className="flex margin gap-10 mt-10 justify-center items-center lg:flex-row flex-col">
-                <Mycard title='Huey' width={710} pic={huey}></Mycard>
-
-                <Mycard title='Stormfront' width={710} pic={stormfront}></Mycard>
-            </div>
-
             <div className="flex margin gap-10 mt-10 justify-center items-center lg:flex-row-reverse flex-col-reverse">
-                <Mycard title='Lamplighter' width={710} pic={lamplighter}></Mycard>
+                <Mycard title='Lamplighter' width={600} pic={lamplighter}></Mycard>
 
                 <Mycard title='Pheonix' width={400} pic={pheonix}></Mycard>
             </div>
 
             <div className="flex margin gap-10 mt-10 justify-center items-center lg:flex-row flex-col">
-                <Mycard title='Kimiko' width={710} pic={kimiko}></Mycard>
+                <Mycard title='Huey' width={600} pic={huey}></Mycard>
 
-                <Mycard title='Lightstorm' width={710} pic={lightstorm}></Mycard>
+                <Mycard title='Stormfront' width={600} pic={stormfront}></Mycard>
+            </div>
+
+            <div className="flex margin gap-10 mt-10 justify-center items-center lg:flex-row flex-col">
+                <Mycard title='Kimiko' width={600} pic={kimiko}></Mycard>
+
+                <Mycard title='Lightstorm' width={600} pic={lightstorm}></Mycard>
             </div>
 
         </section>

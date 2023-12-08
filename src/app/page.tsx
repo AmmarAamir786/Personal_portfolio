@@ -14,10 +14,10 @@ import illustrator from "@/assets/Illustrator.png"
 import lrc from "@/assets/lrc.png"
 import pheonix from "@/assets/illustrations/Pheonix.png"
 import walk from "@/assets/3d/walk.gif"
-import invoker from "@/assets/voxel/invoker.gif"
 import logo1 from "@/assets/logo1.png"
 import logo2 from "@/assets/logo2.png"
 import github from "@/assets/github.png"
+import invoker from "@/assets/voxel/Invoker.gif"
  
 export default function Home() {
   return (

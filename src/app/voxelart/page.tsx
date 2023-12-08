@@ -2,7 +2,7 @@ import React from 'react'
 import Mynavbar from '@/components/Mynavbar'
 import Myfooter from '@/components/Myfooter'
 import invoker from "@/assets/voxel/invoker.gif"
-import jay from "@/assets/voxel/invoker.gif"
+import jay from "@/assets/voxel/Jay.png"
 import Mycard from '@/components/Mycard'
 import Mycard2 from '@/components/Mycard2'
 

@@ -17,7 +17,7 @@ import walk from "@/assets/3d/walk.gif"
 import logo1 from "@/assets/logo1.png"
 import logo2 from "@/assets/logo2.png"
 import github from "@/assets/github.png"
-import invoker from "@/assets/Voxel/invoker.gif"
+import invoker from "@/assets/Voxel/Invoker.gif"
  
 export default function Home() {
   return (

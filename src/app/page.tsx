@@ -122,7 +122,7 @@ export default function Home() {
 
           <div className=' lg:w-1/2 flex flex-col justify-center  gap-10'>
             <h1 className=' lg:text-6xl text-4xl text-amber-400'>Illustrations</h1>
-            <p className='text-xl'>As an illustration expert, I breathe life into ideas through strokes of creativity. Whether it's vibrant digital illustrations or intricate hand-drawn sketches, my work captures narratives and emotions with precision. With a keen eye for detail and a passion for storytelling, I transform concepts into visually compelling illustrations that resonate with depth and imagination.</p>
+            <p className='text-xl'>As an illustration expert, I breathe life into ideas through strokes of creativity. Whether it&apos;s vibrant digital illustrations or intricate hand-drawn sketches, my work captures narratives and emotions with precision. With a keen eye for detail and a passion for storytelling, I transform concepts into visually compelling illustrations that resonate with depth and imagination.</p>
 
             <div className='flex items-center text-xl lg:justify-start justify-center'>
               <Link href={"illustrations"}>
@@ -146,7 +146,7 @@ export default function Home() {
 
           <div className=' lg:w-1/2 flex flex-col justify-center  gap-10'>
             <h1 className='lg:text-6xl text-4xl text-amber-400'>3-D Art</h1>
-            <p className=' text-xl'>As a seasoned 3D artist and Blender expert I love creating lifelike models and animations. From architectural renderings to dynamic visuals, my work showcases Blender's versatility and my mastery of 3D design.</p>
+            <p className=' text-xl'>As a seasoned 3D artist and Blender expert I love creating lifelike models and animations. From architectural renderings to dynamic visuals, my work showcases Blender&apos;s versatility and my mastery of 3D design.</p>
 
             <div className='flex items-center text-xl lg:justify-start justify-center'>
               <Link href={"/3d"}>

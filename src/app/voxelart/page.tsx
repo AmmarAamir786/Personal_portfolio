@@ -3,8 +3,8 @@ import Mynavbar from '@/components/Mynavbar'
 import Myfooter from '@/components/Myfooter'
 import Mycard from '@/components/Mycard'
 import Mycard2 from '@/components/Mycard2'
-import invoker from "@/assets/voxel/Invoker.gif"
-import jay from "@/assets/voxel/Jay.png"
+import invoker from "@/assets/Voxel/Invoker.gif"
+import jay from "@/assets/Voxel/Jay.png"
 
 const voxelart = () => {
   return (

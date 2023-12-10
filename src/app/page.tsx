@@ -50,27 +50,27 @@ export default function Home() {
 
               <Link href={"https://github.com/AmmarAamir786"}>
                 <div>
-                  <Image src={github} alt='github' width={40} height={100} className=' rounded-full'></Image>
+                  <Image src={github} alt='github' width={40} className=' rounded-full'></Image>
                 </div>
               </Link>
               <Link href={"https://www.facebook.com/ammar.aamir.94?mibextid=kFxxJD"}>
                 <div>
-                  <Image src={fb} alt='fb' width={40} height={100} className=' rounded-md'></Image>
+                  <Image src={fb} alt='fb' width={40} className=' rounded-md'></Image>
                 </div>
               </Link>
               <Link href={"https://www.instagram.com/ammar.aamir.786/"}>
                 <div>
-                  <Image src={insta} alt='insta' width={40} height={100} className=' rounded-md'></Image>
+                  <Image src={insta} alt='insta' width={40} className=' rounded-md'></Image>
                 </div>
               </Link>
               <Link href={"/"}>
                 <div>
-                  <Image src={linkdin} alt='linkdin' width={40} height={100} className=' rounded-md'></Image>
+                  <Image src={linkdin} alt='linkdin' width={40} className=' rounded-md'></Image>
                 </div>
               </Link>
               <Link href={"https://www.youtube.com/channel/UCM-mGaA91IamCGKiEahbb1g"}>
                 <div>
-                  <Image src={yt} alt='youtube' width={40} height={100} className=' rounded-full'></Image>
+                  <Image src={yt} alt='youtube' width={40} className=' rounded-full'></Image>
                 </div>
               </Link>
 
@@ -82,7 +82,7 @@ export default function Home() {
 
 
         <div className='w-full lg:w-1/2 flex lg:justify-end items-center justify-center md:self-end'>
-          <Image src={me} alt="me" width={480} height={480}></Image>
+          <Image src={me} alt="Ammar Hero Pic" width={480}></Image>
         </div>
 
       </section>
@@ -98,13 +98,13 @@ export default function Home() {
               <Image src={blender} alt='blender' className=' lg:h-24 md:h-14 w-full h-10'></Image>
             </div>
             <div>
-              <Image src={figma} alt='blender' className=' lg:h-24 md:h-14 w-full h-10'></Image>
+              <Image src={figma} alt='figma' className=' lg:h-24 md:h-14 w-full h-10'></Image>
             </div>
             <div>
-              <Image src={illustrator} alt='blender' className=' lg:h-24 md:h-14 w-full h-10'></Image>
+              <Image src={illustrator} alt='illustrator' className=' lg:h-24 md:h-14 w-full h-10'></Image>
             </div>
             <div>
-              <Image src={lrc} alt='blender' className=' lg:h-24 md:h-14 w-full h-10'></Image>
+              <Image src={lrc} alt='lrc' className=' lg:h-24 md:h-14 w-full h-10'></Image>
             </div>
           </div>
           
@@ -117,7 +117,7 @@ export default function Home() {
         <div className='margin flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-0'>
 
           <div className='w-full lg:w-1/2 flex lg:justify-start items-center justify-center'>
-            <Image src={pheonix} alt="" height={500} width={500}></Image>
+            <Image src={pheonix} alt="pheonix" height={500} width={500}></Image>
           </div>
 
           <div className=' lg:w-1/2 flex flex-col justify-center  gap-10'>
@@ -141,7 +141,7 @@ export default function Home() {
         <div className='margin flex flex-col items-center justify-center gap-10 lg:gap-0 lg:flex-row-reverse'>
 
           <div className='w-full lg:w-1/2 flex lg:justify-end items-center justify-center'>
-            <Image src={walk} alt="" height={500} width={500}></Image>
+            <Image src={walk} alt="walk" height={500} width={500}></Image>
           </div>
 
           <div className=' lg:w-1/2 flex flex-col justify-center  gap-10'>
@@ -165,7 +165,7 @@ export default function Home() {
         <div className='margin flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-0'>
 
           <div className='w-full lg:w-1/2 flex lg:justify-start items-center justify-center'>
-            <Image src={invoker} alt="" height={500} width={500}></Image>
+            <Image src={invoker} alt="invoker" height={500} width={500}></Image>
           </div>
 
           <div className=' lg:w-1/2 flex flex-col justify-center  gap-10'>
@@ -191,8 +191,8 @@ export default function Home() {
           <div className=' lg:text-6xl text-4xl text-amber-400'>LOGOS</div>
 
           <div className='flex justify-center gap-10 flex-col lg:flex-row'>
-              <Image src={logo1} alt="" height={580} width={580}></Image>
-              <Image src={logo2} alt="" height={580} width={580}></Image>
+              <Image src={logo1} alt="panaverse logo 1" width={580}></Image>
+              <Image src={logo2} alt="panaverse logo 2" width={580}></Image>
           </div>
 
         </div>

@@ -39,26 +39,7 @@ const services = () => {
 
       </header>
 
-      <section className="margin mt-10 ">
-        <div className="grid gap-10 place-items-end lg:grid-cols-2 grid-cols-1">
-          <Mycard title='Homelander' width={710} pic={homelander}></Mycard>
-          <Mycard title='Madara' width={400} pic={madara}></Mycard>
-          <Mycard title='Huey' width={710} pic={huey}></Mycard>
-          <Mycard title='Stormfront' width={710} pic={stormfront}></Mycard>
-          <Mycard title='Lamplighter' width={710} pic={lamplighter}></Mycard>
-          <Mycard title='Pheonix' width={400} pic={pheonix}></Mycard>
-          <Mycard title='Kimiko' width={710} pic={kimiko}></Mycard>
-          <Mycard title='Lightstorm' width={710} pic={lightstorm}></Mycard>
-        </div>
-      </section>
-
-      {/* <section className="margin mt-10 ">
-        
-        <div className="grid gap-10 place-items-center lg:grid-cols-2 grid-cols-1">
-
-        </div>
-
-      </section> */}
+ 
 
 
       

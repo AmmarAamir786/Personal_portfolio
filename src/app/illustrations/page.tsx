@@ -32,27 +32,27 @@ const illustrations = () => {
         <section>
 
             <div className="flex margin gap-10 mt-10 justify-center items-center lg:flex-row flex-col">
-                <Mycard title='Homelander' width={600} pic={homelander}></Mycard>
+                <Mycard title='Homelander' alt={homelander} width={600} pic={homelander}></Mycard>
 
-                <Mycard title='Madara' width={400} pic={madara}></Mycard>
+                <Mycard title='Madara' alt={madara} width={400} pic={madara}></Mycard>
             </div>
 
             <div className="flex margin gap-10 mt-10 justify-center items-center lg:flex-row-reverse flex-col-reverse">
-                <Mycard title='Lamplighter' width={600} pic={lamplighter}></Mycard>
+                <Mycard title='Lamplighter' alt={lamplighter} width={600} pic={lamplighter}></Mycard>
 
-                <Mycard title='Pheonix' width={400} pic={pheonix}></Mycard>
+                <Mycard title='Pheonix' alt={pheonix} width={400} pic={pheonix}></Mycard>
             </div>
 
             <div className="flex margin gap-10 mt-10 justify-center items-center lg:flex-row flex-col">
-                <Mycard title='Huey' width={600} pic={huey}></Mycard>
+                <Mycard title='Huey' alt={huey} width={600} pic={huey}></Mycard>
 
-                <Mycard title='Stormfront' width={600} pic={stormfront}></Mycard>
+                <Mycard title='Stormfront' alt={stormfront} width={600} pic={stormfront}></Mycard>
             </div>
 
             <div className="flex margin gap-10 mt-10 justify-center items-center lg:flex-row flex-col">
-                <Mycard title='Kimiko' width={600} pic={kimiko}></Mycard>
+                <Mycard title='Kimiko' alt={kimiko} width={600} pic={kimiko}></Mycard>
 
-                <Mycard title='Lightstorm' width={600} pic={lightstorm}></Mycard>
+                <Mycard title='Lightstorm' alt={lightstorm} width={600} pic={lightstorm}></Mycard>
             </div>
 
         </section>

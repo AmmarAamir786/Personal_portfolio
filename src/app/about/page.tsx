@@ -81,7 +81,7 @@ const about = () => {
 
       </section>
 
-      <Myfooter></Myfooter>
+      <Myfooter style='mt-10 bg-black'></Myfooter>
 
     </main>
 

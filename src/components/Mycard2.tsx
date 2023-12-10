@@ -10,7 +10,6 @@ const Mycard2 = ({ pic, title, width }: { pic: any, title?: string, width: numbe
           src={pic}
           alt=""
           width={width}
-          height={100}
           className="rounded-2xl"
         />
       </div>

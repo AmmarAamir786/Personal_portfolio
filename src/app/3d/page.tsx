@@ -63,12 +63,12 @@ const blender = () => {
 
         <section className=' mt-10 margin flex flex-col lg:flex-row lg:gap-5 gap-10 justify-center items-center'>
             <Mycard2 pic={walk} width={500}></Mycard2>
-            <Mycard2 pic={life} width={400}></Mycard2>
+            <Mycard2 pic={life} width={500}></Mycard2>
         </section>
 
         <section className=' mt-10 margin flex flex-col lg:flex-row lg:gap-5 gap-10 justify-center items-center'>
-            <Mycard2 pic={yoda} width={475}></Mycard2>
-            <Mycard2 pic={babyyoda} width={500}></Mycard2>
+            <Mycard2 pic={yoda} width={448}></Mycard2>
+            <Mycard2 pic={babyyoda} width={470}></Mycard2>
         </section>
 
         <section className=' mt-10 margin flex flex-col lg:flex-row lg:gap-5 gap-10 justify-center items-center'>
@@ -81,7 +81,7 @@ const blender = () => {
             <Mycard2 pic={earth} width={630}></Mycard2>
         </section>
 
-        <Myfooter></Myfooter>
+        <Myfooter style='mt-10 bg-black'></Myfooter>
 
     </main>
     

@@ -27,7 +27,7 @@ const voxelart = () => {
             <Mycard pic={invoker} width={400} title='Invoker'></Mycard>
         </section>
 
-        <Myfooter></Myfooter>
+        <Myfooter style='mt-10'></Myfooter>
 
     </main>
     

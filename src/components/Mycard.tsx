@@ -9,8 +9,8 @@ const Mycard = ({ pic, title, width }: { pic: any, title?: string, width: number
         <Image
           src={pic}
           alt=""
-          width={width}
-          height={100}
+          width={width}          
+          placeholder="blur"
           className="rounded-2xl"
         />
       </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Mynavbar from "../../components/Mynavbar";
+import Myfooter from "@/components/Myfooter";
 import Image from "next/image";
 import Link from "next/link";
 import Mycard from '@/components/Mycard'
@@ -40,8 +41,8 @@ const services = () => {
       </header>
 
  
-
-
+      
+      <Myfooter></Myfooter>
       
       
 

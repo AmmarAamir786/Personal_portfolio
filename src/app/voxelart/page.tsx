@@ -23,8 +23,8 @@ const voxelart = () => {
         </section>
 
         <section className='flex flex-col lg:flex-row justify-center items-center gap-10 mt-10 margin'>
-            <Mycard pic={jay} width={400} title='Jay'></Mycard>
-            <Mycard pic={invoker} width={400} title='Invoker'></Mycard>
+            <Mycard pic={jay} width={400} alt={jay} title='Jay'></Mycard>
+            <Mycard pic={invoker} width={400} alt={invoker} title='Invoker'></Mycard>
         </section>
 
         <Myfooter style='mt-10'></Myfooter>

@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import { Bonheur_Royale } from 'next/font/google'
+import Mynavbar from '@/components/Navbar/Mynavbar'
+import Myfooter from '@/components/Myfooter'
 
 
 
 const inter = Inter({ subsets: ['latin'] })
-const royal = Bonheur_Royale({weight:"400", subsets: ['latin']})
 
 
 
@@ -22,7 +22,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className= {`${inter.className}`} >{children}</body>
+      <body className= {`${inter.className} bg-myblack text-mywhite`} >
+        <header className='sticky top-0 z-50'><Mynavbar></Mynavbar></header>
+        {children}
+        <Myfooter></Myfooter>
+      </body>
     </html>
   )
 }

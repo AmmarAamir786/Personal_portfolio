@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <main>
       <section className="margin flex lg:mt-8 mt-0 lg:flex-row flex-col items-center justify-center gap-5 lg:text-left text-center">
-        <div className=" lg:w-1/2 flex flex-col gap-10 pt-12">
+        <div className=" lg:w-1/2 flex flex-col gap-10 md:pt-12 pt-10">
           <div className="flex flex-col gap-10 text-xl">
             <p>WELCOME!</p>
             <h1 className=" lg:text-6xl text-4xl">

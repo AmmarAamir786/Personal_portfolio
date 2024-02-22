@@ -52,7 +52,7 @@ const blender = () => {
 
       <section className=" mt-10 margin flex flex-col lg:flex-row lg:gap-5 gap-10 justify-center items-center">
         <Mycard2 pic={walk} width={500} alt="walk"></Mycard2>
-        <Mycard2 pic={life} width={500} alt="life"></Mycard2>
+        <Mycard2 pic={life} width={400} alt="life"></Mycard2>
       </section>
 
       <section className=" mt-10 margin flex flex-col lg:flex-row lg:gap-5 gap-10 justify-center items-center">

@@ -15,6 +15,7 @@ import yoda from "@/assets/3d/Yoda with a dougnut.png";
 import Mycard2 from "@/components/Mycard2";
 import thumbnail from "@/assets/3d/thumbnail.png";
 import Image from "next/image";
+import Gifcard from "@/components/Gifcard";
 
 const blender = () => {
   return (
@@ -39,7 +40,7 @@ const blender = () => {
       </section>
 
       <section className=" mt-10 margin flex justify-center items-center">
-        <Mycard2 pic={ufo} width={1100} alt="ufo"></Mycard2>
+        <Gifcard pic={ufo} width={1100} alt="ufo"></Gifcard>
       </section>
 
       <section className=" mt-10 margin flex justify-center items-center">
@@ -52,8 +53,8 @@ const blender = () => {
       </section>
 
       <section className=" mt-10 margin flex flex-col lg:flex-row lg:gap-5 gap-10 justify-center items-center">
-        <Mycard2 pic={walk} width={500} alt="walk"></Mycard2>
-        <Mycard2 pic={life} width={400} alt="life"></Mycard2>
+        <Gifcard pic={walk} width={500} alt="walk"></Gifcard>
+        <Gifcard pic={life} width={400} alt="life"></Gifcard>
       </section>
 
       <section className=" mt-10 margin flex flex-col lg:flex-row lg:gap-5 gap-10 justify-center items-center">
@@ -62,8 +63,8 @@ const blender = () => {
       </section>
 
       <section className=" mt-10 margin flex flex-col lg:flex-row lg:gap-5 gap-10 justify-center items-center">
-        <Mycard2 pic={pirate} width={500} alt="pirate"></Mycard2>
-        <Mycard2 pic={gem} width={500} alt="gem"></Mycard2>
+        <Gifcard pic={pirate} width={500} alt="pirate"></Gifcard>
+        <Gifcard pic={gem} width={500} alt="gem"></Gifcard>
       </section>
 
       <section className=" mt-10 margin flex flex-col lg:flex-row lg:gap-5 gap-10 justify-center items-center">

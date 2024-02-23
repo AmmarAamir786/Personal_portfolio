@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const Mycard2 = ({ pic, alt, width }: { pic: any, alt: string, width: number}) => {
+const Gifcard = ({ pic, alt, width }: { pic: any, alt: string, width: number}) => {
   return (
 
     <div className="p-2 bg-gradient-to-br from-amber-400 to-amber-300 flex justify-center items-center w-fit rounded-3xl shadow-md transition duration-300 ease-in-out transform hover:scale-105">
@@ -11,8 +11,8 @@ const Mycard2 = ({ pic, alt, width }: { pic: any, alt: string, width: number}) =
           alt={alt}
           width={width}
           className="rounded-2xl"
-          placeholder="blur"
-          loading="eager"
+          placeholder="empty"
+          loading="lazy"
         />
       </div>
 
@@ -21,4 +21,4 @@ const Mycard2 = ({ pic, alt, width }: { pic: any, alt: string, width: number}) =
   );
 };
 
-export default Mycard2;
+export default Gifcard;

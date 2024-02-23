@@ -2,6 +2,7 @@ import React from "react";
 import Mycard2 from "@/components/Mycard2";
 import invoker from "@/assets/Voxel/invoker.gif";
 import jay from "@/assets/Voxel/Jay.png";
+import Gifcard from "@/components/Gifcard";
 
 const voxelart = () => {
   return (
@@ -14,7 +15,7 @@ const voxelart = () => {
 
       <section className="flex flex-col lg:flex-row justify-center items-center gap-10 mt-10 margin">
         <Mycard2 pic={jay} width={400} alt={"jay"}></Mycard2>
-        <Mycard2 pic={invoker} width={500} alt={"invoker"}></Mycard2>
+        <Gifcard pic={invoker} width={500} alt={"invoker"}></Gifcard>
       </section>
     </main>
   );

@@ -108,8 +108,8 @@ const Mynavbar = () => {
               <path
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M13.5 2H.5m13 5H.5m13 5H.5"
               />
             </svg>

@@ -25,9 +25,10 @@ const illustrations = () => {
             alt={homelander}
             width={600}
             pic={homelander}
+            loading="eager"
           ></Mycard>
 
-          <Mycard title="Madara" alt={madara} width={400} pic={madara}></Mycard>
+          <Mycard title="Madara" alt={madara} width={400} pic={madara} loading="eager"></Mycard>
         </div>
 
         <div className="flex margin gap-10 mt-10 justify-center items-center lg:flex-row-reverse flex-col-reverse">
@@ -54,6 +55,7 @@ const illustrations = () => {
             alt={stormfront}
             width={600}
             pic={stormfront}
+            loading="lazy"
           ></Mycard>
         </div>
 
@@ -65,6 +67,7 @@ const illustrations = () => {
             alt={lightstorm}
             width={600}
             pic={lightstorm}
+            loading="lazy"
           ></Mycard>
         </div>
       </section>

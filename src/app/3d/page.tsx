@@ -32,6 +32,7 @@ const blender = () => {
               src={thumbnail}
               alt=""
               className=" w-[700px] rounded-xl transition duration-300 ease-in-out transform hover:scale-110"
+              placeholder="blur"
             ></Image>
           </div>
         </Link>

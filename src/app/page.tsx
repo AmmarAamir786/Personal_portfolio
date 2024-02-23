@@ -101,7 +101,7 @@ export default function Home() {
         </div>
 
         <div className="w-full lg:w-1/2 flex lg:justify-end items-center justify-center md:self-end">
-          <Image src={me} alt="Ammar Hero Pic" width={480}></Image>
+          <Image src={me} alt="Ammar Hero Pic" width={480} placeholder="blur" loading="eager"></Image>
         </div>
       </section>
 
@@ -147,7 +147,7 @@ export default function Home() {
       <section className="lg:h-screen flex items-center py-10 text-center lg:text-left">
         <div className="margin flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-0">
           <div className="w-full lg:w-1/2 flex lg:justify-start items-center justify-center">
-            <Image src={pheonix} alt="pheonix" height={500} width={500}></Image>
+            <Image src={pheonix} alt="pheonix" height={500} width={500} placeholder="blur"></Image>
           </div>
 
           <Description
@@ -166,7 +166,7 @@ export default function Home() {
       <section className="lg:h-screen flex items-center py-10 text-center lg:text-left bg-black">
         <div className="margin flex flex-col items-center justify-center gap-10 lg:gap-0 lg:flex-row-reverse">
           <div className="w-full lg:w-1/2 flex lg:justify-end items-center justify-center">
-            <Image src={walk} alt="walk" height={500} width={500}></Image>
+            <Image src={walk} alt="walk" height={500} width={500} loading="lazy"></Image>
           </div>
 
           <Description
@@ -183,7 +183,7 @@ export default function Home() {
       <section className="lg:h-screen flex items-center py-10 text-center lg:text-left">
         <div className="margin flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-0">
           <div className="w-full lg:w-1/2 flex lg:justify-start items-center justify-center">
-            <Image src={invoker} alt="invoker" height={500} width={500}></Image>
+            <Image src={invoker} alt="invoker" height={500} width={500} loading="lazy"></Image>
           </div>
 
           <Description

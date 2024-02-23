@@ -11,6 +11,7 @@ const Mycard = ({ pic, title, width, alt }: {pic: any, title?: string, width: nu
           alt={alt}
           width={width}          
           className="rounded-2xl"
+          placeholder="blur"
         />
       </div>
 

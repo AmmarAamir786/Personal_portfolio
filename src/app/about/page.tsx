@@ -9,7 +9,7 @@ const about = () => {
     <main>
       <section className="margin mb-10">
         <div className="flex justify-center border-b-2 border-amber-400">
-          <Image src={ammar} alt="ammar"></Image>
+          <Image src={ammar} alt="ammar" placeholder="blur" loading="eager"></Image>
         </div>
 
         <div className="flex justify-center text-center sm:text-6xl md:text-7xl lg:text-8xl text-5xl text-amber-400 mt-3 pb-3 border-b-2 border-amber-400">

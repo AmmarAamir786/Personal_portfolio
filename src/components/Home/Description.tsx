@@ -8,10 +8,12 @@ const Description = ({
   h1,
   p,
   href,
+  buttontext
 }: {
   h1: string;
   p: string;
   href: string;
+  buttontext: string
 }) => {
   const skillref = useRef<HTMLDivElement>(null);
   const isSkillRefInView = useInView(skillref, {
@@ -38,7 +40,7 @@ const Description = ({
       <p className=" text-xl">{p}</p>
       <div className="flex items-center text-xl lg:justify-start justify-center">
         <Link href={href}>
-          <Mybutton title="View Gallery"></Mybutton>
+          <Mybutton title={buttontext}></Mybutton>
         </Link>
       </div>
     </motion.div>

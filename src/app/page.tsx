@@ -5,10 +5,6 @@ import insta from "@/assets/insta.png";
 import linkdin from "@/assets/linkdin.png";
 import yt from "@/assets/youtube.png";
 import me from "@/assets/me.png";
-import blender from "@/assets/blender.png";
-import figma from "@/assets/figma.png";
-import illustrator from "@/assets/Illustrator.png";
-import lrc from "@/assets/lrc.png";
 import pheonix from "@/assets/illustrations/Pheonix.png";
 import walk from "@/assets/3d/walk.gif";
 import logo1 from "@/assets/logo1.png";
@@ -17,6 +13,8 @@ import github from "@/assets/github.png";
 import invoker from "@/assets/Voxel/invoker.gif";
 import Description from "@/components/Home/Description";
 import ImageCard from "@/components/Home/ImageCard";
+import Skills from "@/components/Skills/Skills";
+import ammar from "@/assets/ammar.png"
 
 export default function Home() {
   return (
@@ -105,44 +103,23 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-black">
-        <div className="flex flex-col text-center pt-10 gap-12 margin">
-          <h1 className=" lg:text-6xl text-amber-400 text-4xl">
-            Proficient At:
-          </h1>
+      <Skills></Skills>
 
-          <div className="flex justify-evenly pb-10 lg:flex">
-            <div>
-              <Image
-                src={blender}
-                alt="blender"
-                className=" lg:h-24 md:h-14 w-full h-10"
-              ></Image>
-            </div>
-            <div>
-              <Image
-                src={figma}
-                alt="figma"
-                className=" lg:h-24 md:h-14 w-full h-10"
-              ></Image>
-            </div>
-            <div>
-              <Image
-                src={illustrator}
-                alt="illustrator"
-                className=" lg:h-24 md:h-14 w-full h-10"
-              ></Image>
-            </div>
-            <div>
-              <Image
-                src={lrc}
-                alt="lrc"
-                className=" lg:h-24 md:h-14 w-full h-10"
-              ></Image>
-            </div>
+      {/* <section className="lg:h-screen bg-black flex items-center py-10 text-center lg:text-left">
+        <div className="margin flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-0">
+          <div className="w-full lg:w-1/2 flex lg:justify-start items-center justify-center">
+            <Image src={ammar} alt="me" height={500} width={500} placeholder="blur"></Image>
           </div>
+
+          <Description
+            h1="About me"
+            p="Hi, my name is Ammar. I am a professional front-end-web developer from Pakistan. My expertise includes using NextJs/React with TailwindCSS and Typescript to transform your ideas into responsive and dynamic code.
+            I take pride in consistently upholding a high standard in the quality of work I deliver because I always consider my work my brand."
+            href="/illustrations"
+            buttontext="View Projects"
+          ></Description>
         </div>
-      </section>
+      </section> */}
 
       <section className="lg:h-screen flex items-center py-10 text-center lg:text-left">
         <div className="margin flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-0">
@@ -159,6 +136,7 @@ export default function Home() {
             and a passion for storytelling, I transform concepts into visually
             compelling illustrations that resonate with depth and imagination."
             href="/illustrations"
+            buttontext="See Illustrations"
           ></Description>
         </div>
       </section>
@@ -176,6 +154,7 @@ export default function Home() {
               dynamic visuals, my work showcases Blender's versatility and
               my mastery of 3D design."
             href="/3d"
+            buttontext="Explore 3D World"
           ></Description>
         </div>
       </section>
@@ -194,11 +173,12 @@ export default function Home() {
             masterpieces, my work reflects a mastery of voxel art techniques,
             bringing creativity to life in every block."
             href="/voxelart"
+            buttontext="Discover Voxels"
           ></Description>
         </div>
       </section>
 
-      <section className="lg:h-screen flex items-center py-10 text-center lg:text-left bg-black justify-center">
+      <section id="logos" className="lg:h-screen flex items-center py-10 text-center lg:text-left bg-black justify-center">
         <div className="margin flex flex-col items-center justify-center gap-12">
           <div className=" lg:text-6xl text-4xl text-amber-400">LOGOS</div>
 

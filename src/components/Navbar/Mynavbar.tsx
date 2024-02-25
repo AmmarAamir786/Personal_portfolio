@@ -85,7 +85,7 @@ const Mynavbar = () => {
           </div>
 
           <button className="flex items-center text-xl w-[244px] justify-end">
-            <Link href={"/"}>
+            <Link href={"/#logos"}>
               <Mybutton title="Hire Me"></Mybutton>
             </Link>
           </button>
@@ -98,7 +98,7 @@ const Mynavbar = () => {
 
           <div>
             <svg
-              className="w-[24px] hover:cursor-pointer text-mywhite"
+              className="w-[24px] hover:cursor-pointer text-mywhite hover:text-amber-400 transition-all"
               onClick={toggleMenu}
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -124,7 +124,7 @@ const Mynavbar = () => {
                 className="flex flex-col w-full items-end gap-4"
               >
                 <svg
-                  className="w-[28px] hover:cursor-pointer text-mywhite"
+                  className="w-[28px] hover:cursor-pointer text-mywhite hover:text-amber-400 transition-all"
                   onClick={toggleMenu}
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
@@ -149,7 +149,7 @@ const Mynavbar = () => {
                 </motion.div>
 
                 <button className="flex items-center text-xl w-[244px] justify-end">
-                  <Link href={"/"}>
+                  <Link href={"/#logos"}>
                     <Mybutton title="Hire Me"></Mybutton>
                   </Link>
                 </button>

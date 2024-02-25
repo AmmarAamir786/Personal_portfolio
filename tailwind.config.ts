@@ -18,6 +18,9 @@ const config: Config = {
         "mywhite" : "#F3F4F6",
         "myblack" : "#27272A",
       },
+      boxShadow: {
+        "myshadow" : "0px 0px 30px rgba(255, 193, 7, 0.5)"
+      }
     },
   },
   plugins: [],

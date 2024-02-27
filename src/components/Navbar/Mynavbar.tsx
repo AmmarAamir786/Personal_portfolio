@@ -80,7 +80,8 @@ const Mynavbar = () => {
 
           <div className="flex items-center text-xl gap-5">
             <Navlink href="/">Home</Navlink>
-            <Navlink href="/about">About</Navlink>
+            {/* <Navlink href="/about">About</Navlink> */}
+            <Navlink href="/projects">Projects</Navlink>
             <NavigationMenu></NavigationMenu>
           </div>
 

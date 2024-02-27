@@ -13,8 +13,8 @@ import github from "@/assets/github.png";
 import invoker from "@/assets/Voxel/invoker.gif";
 import Description from "@/components/Home/Description";
 import ImageCard from "@/components/Home/ImageCard";
+import ProjectSection from "@/components/Projects/ProjectSection";
 import Skills from "@/components/Skills/Skills";
-import ammar from "@/assets/ammar.png"
 
 export default function Home() {
   return (
@@ -105,21 +105,14 @@ export default function Home() {
 
       <Skills></Skills>
 
-      {/* <section className="lg:h-screen bg-black flex items-center py-10 text-center lg:text-left">
-        <div className="margin flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-0">
-          <div className="w-full lg:w-1/2 flex lg:justify-start items-center justify-center">
-            <Image src={ammar} alt="me" height={500} width={500} placeholder="blur"></Image>
-          </div>
+      <ProjectSection></ProjectSection>
+      
+      <section className="flex margin gap-5 mt-5">
+        <div className="rounded-full bg-amber-400 w-2 h-2"></div>
+        <div className="rounded-full bg-amber-400 w-2 h-2"></div>
+        <div className="rounded-full bg-amber-400 w-full h-2"></div>
+      </section>
 
-          <Description
-            h1="About me"
-            p="Hi, my name is Ammar. I am a professional front-end-web developer from Pakistan. My expertise includes using NextJs/React with TailwindCSS and Typescript to transform your ideas into responsive and dynamic code.
-            I take pride in consistently upholding a high standard in the quality of work I deliver because I always consider my work my brand."
-            href="/illustrations"
-            buttontext="View Projects"
-          ></Description>
-        </div>
-      </section> */}
 
       <section className="lg:h-screen flex items-center py-10 text-center lg:text-left">
         <div className="margin flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-0">

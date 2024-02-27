@@ -15,9 +15,9 @@ const Skills = () => {
   });
   
   return (
-    <section className="pt-10 lg:h-screen bg-black flex justify-center overflow-hidden flex-col lg:gap-20 gap-10">
+    <section className="pt-10 bg-black flex justify-center overflow-hidden flex-col lg:gap-20 gap-10">
 
-      <motion.div className="flex flex-col text-center items-center justify-center gap-10 lg:gap-5"
+      {/* <motion.div className="flex flex-col text-center items-center justify-center gap-10 lg:gap-5"
       ref={skillref}
       initial={{
         y: 20,
@@ -37,7 +37,7 @@ const Skills = () => {
           in consistently upholding a high standard in the quality of work I
           deliver because I always consider my work my brand.
         </p>
-      </motion.div>
+      </motion.div> */}
 
       <div className="flex flex-col text-center gap-2">
         <h1 className=" lg:text-6xl text-amber-400 text-4xl">Proficient At:</h1>

@@ -36,6 +36,8 @@ const SingleProject = ({id, name, code, demo, image, alt}: {id: string, name: st
               alt={alt}
               width={550}
               className="object-cover w-full h-fit -z-50"
+              loading="eager"
+              placeholder="blur"
 
             />
           <div className="flex justify-around bg-amber-400/80  w-full absolute bottom-0 z-40 py-2">

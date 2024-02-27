@@ -19,18 +19,23 @@ import Skills from "@/components/Skills/Skills";
 export default function Home() {
   return (
     <main>
-      <section className="margin flex lg:mt-8 mt-0 lg:flex-row flex-col items-center justify-center gap-5 lg:text-left text-center">
-        <div className=" lg:w-1/2 flex flex-col gap-10 md:pt-12 pt-10">
+      <section className="margin flex lg:flex-row flex-col items-center justify-center gap-5 lg:text-left text-center">
+        <div className=" lg:w-1/2 flex flex-col gap-10 md:pt-12 pt-6">
           <div className="flex flex-col gap-10 text-xl">
             <p>WELCOME!</p>
             <h1 className=" lg:text-6xl text-4xl">
               Hi, I am <span className=" text-amber-400">Ammar Aamir</span> a
               professional Digital Artisan
             </h1>
-            <p>
+            {/* <p>
               An artisan of the digital realm, skilled in crafting immersive
               digital experiences through website development, design, 3D art,
               voxel art, and illustrations, with a keen eye for aesthetics.
+            </p> */}
+            <p>
+              A professional front-end-web developer from Pakistan. My expertise
+              includes using NextJs/React with TailwindCSS and Typescript to
+              transform your ideas into responsive and dynamic code.
             </p>
           </div>
 
@@ -99,25 +104,36 @@ export default function Home() {
         </div>
 
         <div className="w-full lg:w-1/2 flex lg:justify-end items-center justify-center md:self-end">
-          <Image src={me} alt="Ammar Hero Pic" width={480} placeholder="blur" loading="eager"></Image>
+          <Image
+            src={me}
+            alt="Ammar Hero Pic"
+            width={480}
+            placeholder="blur"
+            loading="eager"
+          ></Image>
         </div>
       </section>
 
       <Skills></Skills>
 
       <ProjectSection></ProjectSection>
-      
+
       <section className="flex margin gap-5 mt-5">
         <div className="rounded-full bg-amber-400 w-2 h-2"></div>
         <div className="rounded-full bg-amber-400 w-2 h-2"></div>
         <div className="rounded-full bg-amber-400 w-full h-2"></div>
       </section>
 
-
       <section className="lg:h-screen flex items-center py-10 text-center lg:text-left">
         <div className="margin flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-0">
           <div className="w-full lg:w-1/2 flex lg:justify-start items-center justify-center">
-            <Image src={pheonix} alt="pheonix" height={500} width={500} placeholder="blur"></Image>
+            <Image
+              src={pheonix}
+              alt="pheonix"
+              height={500}
+              width={500}
+              placeholder="blur"
+            ></Image>
           </div>
 
           <Description
@@ -137,7 +153,13 @@ export default function Home() {
       <section className="lg:h-screen flex items-center py-10 text-center lg:text-left bg-black">
         <div className="margin flex flex-col items-center justify-center gap-10 lg:gap-0 lg:flex-row-reverse">
           <div className="w-full lg:w-1/2 flex lg:justify-end items-center justify-center">
-            <Image src={walk} alt="walk" height={500} width={500} loading="lazy"></Image>
+            <Image
+              src={walk}
+              alt="walk"
+              height={500}
+              width={500}
+              loading="lazy"
+            ></Image>
           </div>
 
           <Description
@@ -155,7 +177,13 @@ export default function Home() {
       <section className="lg:h-screen flex items-center py-10 text-center lg:text-left">
         <div className="margin flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-0">
           <div className="w-full lg:w-1/2 flex lg:justify-start items-center justify-center">
-            <Image src={invoker} alt="invoker" height={500} width={500} loading="lazy"></Image>
+            <Image
+              src={invoker}
+              alt="invoker"
+              height={500}
+              width={500}
+              loading="lazy"
+            ></Image>
           </div>
 
           <Description
@@ -171,7 +199,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="logos" className="lg:h-screen flex items-center py-10 text-center lg:text-left bg-black justify-center">
+      <section className="lg:h-screen flex items-center py-10 text-center lg:text-left bg-black justify-center">
         <div className="margin flex flex-col items-center justify-center gap-12">
           <div className=" lg:text-6xl text-4xl text-amber-400">LOGOS</div>
 

@@ -31,4 +31,12 @@ export const projectsData = [
         image: pics[2],
         alt: "furniture app"
     },
+    {
+        id: "3",
+        projectName: 'Furniture Website',
+        code: 'https://github.com/AmmarAamir786/Furniture_site',
+        demo: 'https://prac-furtniture.vercel.app/',
+        image: pics[2],
+        alt: "furniture app"
+    },
 ]

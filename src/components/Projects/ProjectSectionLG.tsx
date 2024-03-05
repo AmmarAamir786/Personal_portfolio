@@ -4,13 +4,13 @@ import { projectsData } from "@/data/projectsData";
 import Link from "next/link";
 import Mybutton from "../Mybutton";
 
-const ProjectSection = () => {
+const ProjectSectionLG = () => {
   return (
-    <main className=" flex flex-col gap-12 items-center py-10 text-center lg:text-left  justify-center">
+    <main className="xl:flex flex-col gap-12 items-center py-10 text-center hidden lg:text-left  justify-center">
       <div className=" lg:text-6xl text-4xl text-amber-400">Projects</div>
 
       <div className="flex justify-center items-center gap-20 flex-wrap margin">
-        {projectsData.slice(0, 3).map((project) => (
+        {projectsData.slice(-3).map((project) => (
           <SingleProject
             key={project.id}
             id={project.id}
@@ -32,4 +32,4 @@ const ProjectSection = () => {
   );
 };
 
-export default ProjectSection;
+export default ProjectSectionLG;

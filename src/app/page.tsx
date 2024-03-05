@@ -13,8 +13,9 @@ import github from "@/assets/github.png";
 import invoker from "@/assets/Voxel/invoker.gif";
 import Description from "@/components/Home/Description";
 import ImageCard from "@/components/Home/ImageCard";
-import ProjectSection from "@/components/Projects/ProjectSection";
+import ProjectSectionSM from "@/components/Projects/ProjectSectionSM";
 import Skills from "@/components/Skills/Skills";
+import ProjectSectionLG from "@/components/Projects/ProjectSectionLG";
 
 export default function Home() {
   return (
@@ -116,7 +117,8 @@ export default function Home() {
 
       <Skills></Skills>
 
-      <ProjectSection></ProjectSection>
+      <ProjectSectionSM></ProjectSectionSM>
+      <ProjectSectionLG></ProjectSectionLG>
 
       <section className="flex margin gap-5 mt-5">
         <div className="rounded-full bg-amber-400 w-2 h-2"></div>

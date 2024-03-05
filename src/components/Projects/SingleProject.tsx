@@ -26,16 +26,15 @@ const SingleProject = ({id, name, code, demo, image, alt}: {id: string, name: st
         delay: 0.2,
       }}>
 
-      <motion.div className="flex flex-col items-center justify-between h-full "
-      whileHover={{scale: 1.03}}>
+      <motion.div className="flex flex-col items-center justify-between h-full group">
 
         <div className="flex-grow">
-          <h2 className="text-2xl font-bold pb-2 pt-3 text-center">{name}</h2>
+          <h2 className="text-2xl font-bold pb-2 pt-3 bg-amber-400 text-center">{name}</h2>
           <Image
               src={image}
               alt={alt}
               width={550}
-              className="object-cover w-full h-fit -z-50"
+              className="object-cover w-full h-fit -z-50 group-hover:scale-[1.02] transition-all"
               loading="eager"
               placeholder="blur"
 
